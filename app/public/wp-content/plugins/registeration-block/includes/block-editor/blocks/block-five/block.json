@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rimshasajid/fifth-block",
+	"version": "0.1.0",
+	"title": "Fifth Block",
+	"category": "design",
+	"icon": "businessman",
+	"description": "The Fifth Block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "registeration-block",
+	"editorScript": "file:../../../../build/index.js",
+	"editorStyle": "file:../../../../build/index.css",
+	"style": "file:../../../../build/style-index.css",
+	"render": "file:../../../../build/render.php"
+}

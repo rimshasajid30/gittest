@@ -1,0 +1,1 @@
+2023/07/20 12:11:42 [error] 32996#28640: *22219 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-admin/post.php?post=1349&action=edit HTTP/1.0", upstream: "fastcgi://127.0.0.1:10021", host: "gittest.local", referrer: "http://gittest.local/wp-admin/"

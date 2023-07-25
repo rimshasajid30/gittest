@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "rimshasajid/fourth-block",
+    "version": "0.1.0",
+    "title": "Fourth Block",
+    "category": "design",
+    "icon": "lock",
+    "description": "The Fourth Block",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "registeration-block",
+    "editorScript": "file:../../../../build/index.js",
+    "editorStyle": "file:../../../../build/index.css",
+    "style": "file:../../../../build/style-index.css",
+    "render": "file:../../../../build/render.php",
+    "attributes": {
+        "fieldName": {
+            "type": "string",
+            "default": "Input Name"
+        }
+    }
+}

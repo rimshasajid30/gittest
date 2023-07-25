@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "rimshasajid/second-block",
+    "version": "0.1.0",
+    "title": "Second Block",
+    "category": "design",
+    "icon": "phone",
+    "description": "The Second Block",
+    "supports": {
+        "html": false
+    },
+    "textdomain": "registeration-block",
+    "editorScript": "file:../../../../build/index.js",
+    "editorStyle": "file:../../../../build/index.css",
+    "style": "file:../../../../build/style-index.css",
+    "render": "file:../../../../build/render.php",
+    "attributes": {
+        "fieldName": {
+            "type": "string",
+            "default": "Input Name"
+        }
+    }
+}
